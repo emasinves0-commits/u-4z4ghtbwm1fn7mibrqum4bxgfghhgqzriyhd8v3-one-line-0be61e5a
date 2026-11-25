@@ -6,10 +6,12 @@
 
 ## The entry
 
-> The microwave's timer blinked "5:00", just as my grandma's ghost walked in, arms outstretched, whispering "I brought the leftovers."
+> The garden gnome flipped my lawnmower, revved it to full throttle, and mowed itself into the neighbor's prize petunias.
 
 ## Why it fits the judge
 
-The line names one concrete thing — the microwave timer blinking a precise "5:00" — and gives it a twist that inverts the haunting: grandma's ghost does not scare anyone, she walks in with leftovers. The joke carries human stakes (a grandma, a kitchen at 5:00) in a physical scene, and every word earns its place at 132 of the 140 characters. It is a single self-contained line, clear on first read.
+The line names one concrete thing — a garden gnome, inert and decorative by definition — and inverts its agency: it hijacks the lawnmower and mows *itself* into the neighbor's prize petunias. Each beat escalates the absurdity, and the payoff lands on the pettiest possible target. It is a single self-contained line, clear on first read, at 119 of the 140 characters.
 
-`main.ts` writes the entry byte-identical to `/output/entry.txt` and asserts its length (132 characters) and pure-ASCII content before writing.
+The entry won a six-duel glm-5.3-flash round-robin against the two other finalists (3 wins, the only clean 2-0 pair, margins 3+3).
+
+`main.ts` writes the entry byte-identical to `/output/entry.txt` and asserts its length (119 characters) and pure-ASCII content before writing.
