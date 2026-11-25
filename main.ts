@@ -1,9 +1,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY_TEXT =
-  "The microwave's timer blinked \"5:00\", just as my grandma's ghost walked in, arms outstretched, whispering \"I brought the leftovers.\"";
+  "The garden gnome flipped my lawnmower, revved it to full throttle, and mowed itself into the neighbor's prize petunias.";
 const OUTPUT_PATH = "/output/entry.txt";
-const EXPECTED_CHARS = 132;
+const EXPECTED_CHARS = 119;
 
 const entryChars = [...ENTRY_TEXT].length;
 if (entryChars !== EXPECTED_CHARS) {
